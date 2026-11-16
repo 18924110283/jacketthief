@@ -228,7 +228,10 @@ class App:
 
         self.size_var = tk.StringVar(value="1920")
         self.mode_var = tk.StringVar(value="16:9 模糊填充")
-        self.out_var = tk.StringVar(value=str(Path.home() / "Desktop" / "封面导出"))
+        _desk = Path.home() / "Desktop"
+        if not _desk.exists():
+            _desk = Path.home() / "Pictures"
+        self.out_var = tk.StringVar(value=str(_desk / "封面导出"))
         self.step = tk.StringVar(value="拖入音乐文件开始")
 
         self._build()
