@@ -1,4 +1,4 @@
-"""封面提取器 — 从音乐文件里扒内嵌封面，导出成封面图 / 视频封面。
+"""封皮贼 JacketThief — 从音乐文件里扒内嵌封面，导出成封面图 / 视频封面。
 
 支持 MP3(APIC) / FLAC(picture) / M4A(covr) / OGG / WAV 等
 """
@@ -221,7 +221,7 @@ class App:
         self._tkimg = None
         self._pct = 0
 
-        root.title("封面提取器")
+        root.title("封皮贼 · JacketThief")
         root.configure(bg=BG)
         root.geometry("1120x760")
         root.minsize(980, 660)
@@ -246,7 +246,7 @@ class App:
         right.pack(side="right", fill="y", padx=(14, 0))
         right.pack_propagate(False)
 
-        tk.Label(left, text="封面提取器", bg=BG, fg=FG,
+        tk.Label(left, text="封皮贼", bg=BG, fg=FG,
                  font=(UI_FONT, 16, "bold")).pack(anchor="w")
         tk.Label(left, text="拖入音乐文件 · 自动扒出内嵌封面 · 一键导出封面图",
                  bg=BG, fg=DIM, font=(UI_FONT, 9)).pack(anchor="w", pady=(0, 8))

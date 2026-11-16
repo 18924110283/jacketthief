@@ -1,6 +1,6 @@
-# CoverGrab · 封面提取器
+# 封皮贼 · JacketThief
 
-从音乐文件里**扒出内嵌封面**，一键导出成专辑图或视频封面。
+把封面从音乐文件里**扒出来**，一键导出成专辑图或视频封面。
 
 支持 MP3 / FLAC / M4A / OGG / WAV 等格式，批量处理，三种导出比例。
 纯 Python + tkinter，不需要 GPU，Windows / Linux 都能跑。

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
-echo "== CoverGrab 依赖安装 =="
+echo "== 封皮贼 JacketThief 依赖安装 =="
 
 if command -v pacman >/dev/null 2>&1; then
     sudo pacman -S --needed --noconfirm python python-pillow tk
