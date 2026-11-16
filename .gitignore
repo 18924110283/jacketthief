@@ -1,0 +1,15 @@
+﻿__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 导出结果
+封面导出/
+*.jpg
+*.png
+!docs/*.png
+
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,6 @@
+﻿Pillow>=9.0
+mutagen>=1.45
+windnd>=1.0; sys_platform == "win32"
+
+# 可选：拖拽支持（装不上也能用「添加文件」按钮）
+tkinterdnd2>=0.3.0
